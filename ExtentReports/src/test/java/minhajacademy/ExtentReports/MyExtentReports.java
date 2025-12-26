@@ -19,7 +19,7 @@ public class MyExtentReports {
 	ExtentReports extent;
 	WebDriver driver;
 	//updated working directory path
-	String path = System.getProperty("user.dir") + "ExtentReports//report//index.html";
+	String path = System.getProperty("user.dir") + "//report//index.html";
 	
 
 	@BeforeTest
