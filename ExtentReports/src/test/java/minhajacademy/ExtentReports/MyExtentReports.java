@@ -15,9 +15,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MyExtentReports {
 
+	//Added comment
 	ExtentReports extent;
 	WebDriver driver;
 	String path = System.getProperty("user.dir") + "//report//index.html";
+	
 
 	@BeforeTest
 	public void config() {
