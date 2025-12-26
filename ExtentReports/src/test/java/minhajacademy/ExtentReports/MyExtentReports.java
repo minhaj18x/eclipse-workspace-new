@@ -15,10 +15,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MyExtentReports {
 
-	//Added comment-test
+	//Added comment-test-2
 	ExtentReports extent;
 	WebDriver driver;
-	String path = System.getProperty("user.dir") + "//report//index.html";
+	//updated working directory path
+	String path = System.getProperty("user.dir") + "ExtentReports//report//index.html";
 	
 
 	@BeforeTest
